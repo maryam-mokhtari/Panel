@@ -1,0 +1,218 @@
+.emails-errors {
+  margin-left: 10px;
+  position: relative;
+  left: -15px;
+  float: left;
+  top: -30px;
+}
+.side-text {
+  height: 1px;
+  margin-bottom: 5px;
+}
+.side-icon {
+  padding: 12px;
+  background: #daa526;
+  text-align: center;
+  font-size: 30px;
+}
+.box.box-dark-green {
+  border-top-color: #05552D !important;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-dark-green {
+  background-color: #05552D !important;
+}
+.text-dark-green {
+  color: #05552D !important;
+}
+.erronous-emails {
+  color: red;
+  margin-top: 15px;
+}
+.box-white {
+  background: white;
+}
+.plan-fix-height {
+  height: 225px;
+}
+.plan-disabled {
+  background: #eee;
+}
+.plan-disabled>.plan-header {
+  background: #ddd;
+}
+.plan-yours {
+  background: rgb(253, 250, 237);
+  box-shadow: 1px 4px 2px 2px #ccc;
+}
+.plan-title-fa {
+  margin-top: 6px;
+  margin-right: 15px;
+}
+.plan-title-en {
+  margin-top: 6px;
+  margin-left: 15px;
+}
+.plan-header {
+  background-color: #ffcc00;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0px;
+}
+.plan-button {
+  background: #ffb100;
+  border: 1px solid #ecb104;
+}
+.plan-renew-button {
+  background: #FFCF43;
+  border: 1px solid #ecb104;
+}
+.plan-label {
+  color: #555;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.plan-loading {
+  position: absolute;
+  background: #ffcc00;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+}
+.plan-loading>i {
+  margin: 28% 43%;
+  font-size: 3em;
+  color: gray;
+}
+.plan-success {
+  height: 0px;
+  padding: 0px;
+  /*margin-bottom: 0px;*/
+  overflow: hidden;
+  animation: 12s plan-toggle 0s forwards;
+}
+.plan-close {
+  color: white;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+.plan-hide {
+  animation: plan-hide 1s forwards;
+}
+@keyframes plan-toggle {
+  2% {height: 100px; padding: 20px; }
+  0% {height: 0px; padding: 0px; }
+  100% {height: 0px; padding: 0px; }
+  98% {height: 100px;padding: 20px; }
+}
+@keyframes plan-hide {
+  from {height: 100px; padding: 20px; }
+  to {height: 0px;padding: 0px; }
+}
+.users-space {
+  margin: 2px;
+  /*width: 150px;*/
+}
+.vertical-margin {
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+.example {
+  background: #fafbf1;
+  color: #666;
+  font-family: courier new;
+  font-size: 0.9em;
+}
+.file-reader {
+  display: block;
+  cursor: pointer;
+  border: 1px dashed ;
+  padding: 8px;
+  margin-top: 10px;
+  box-shadow: inset 0px 0px 12px 0px #f9f9f9;
+  width: 100%;
+}
+.file-reader__label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+.file-reader__trigger {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 28px;
+    margin-right: 8px;
+}
+.file-reader__input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.file-reader__button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 1;
+}
+.btn-md {
+  padding: 10px;
+  font-size: 100%;
+}
+
+.disable-link {
+  color: gray !important;
+  text-decoration: none;
+  cursor: not-allowed;
+}
+
+.btn-mtn {
+  background-color: #ffcc00;
+  font-size: 14px;
+  font-weight: bold;
+  width: 220px;
+  height: 50px;
+
+}
+
+.btn-mtn:hover {background-color: #fec231;}
+
+.btn-mtn:active {background-color: #fec231;}
+
+.col-md-6 .newuserpage {background-color: #f0f0f0; padding: 0 90px}
+
+.col-md-6 .newuserpage input {font-Family: tahoma; background-Color: transparent ; width: 70%; border-Top: 0 ; border-Left: 0 ; border-Right: 0 ; border-Bottom: 2px solid ; float: left}
+
+
+/**********MEDIA**********/
+
+/*** media max width ***/
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+
+.col-md-6 .newuserpage {padding: 0px}
+.col-md-6 .newuserpage {padding: 20px!important}
+.row .vertical-margin {text-align: center}
+.col-md-6 .newuserpage .left-side {padding: 20px!important}  
+.col-lg-6 .form-control {float: unset!important; margin: auto!important}
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 375px) {
+}

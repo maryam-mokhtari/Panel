@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log
+.DS_Store
+src/.DS_Store
+.idea/
+dist/bundle.js.map
+package-lock.json

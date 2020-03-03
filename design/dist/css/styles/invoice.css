@@ -1,0 +1,206 @@
+.invoice-result {
+  margin-bottom: -10px;
+}
+.invoice-border {
+  border: 1px solid #ececec;
+}
+.invoice-btn {
+  margin: 0px 5px;
+}
+.invoice-space {
+  padding: 0px 10px 0px 10px;
+}
+.invoice-label {
+  float: right;
+  padding: 5px;
+}
+.pay-wrapper {
+  line-height: 22px;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.invoice-overflowed {
+  overflow-x: auto;
+}
+.invoice-main-div {
+  min-width: 970px;
+  overflow-x: auto;
+  background: white;
+  padding: 10px;
+}
+.pre-Invoice-bottom-notify {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.no-border {
+  border: none;
+}
+.td-title {
+  padding: 5px !important;
+  font-weight: bold;
+  border-bottom: 1px solid black !important;
+  /*border-top: 1px solid black !important;*/
+  text-align: center;
+}
+.square {
+  margin: 0px 10px;
+  width: 30px;
+  height:  30px;
+  border: 1px solid #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* Base */
+
+.btn-primary {
+  background-color: #FFCC00;
+  border-color: #FFCC00;
+}
+.btn-primary:hover {
+  background-color: #FFC30F;
+  border-color: #FFC30F;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:focus:active {
+  background-color: #e4ae11;
+  border-color: #ffbd02;
+}
+
+.btn[disabled],
+.btn[disabled]:focus,
+.btn[disabled]:hover,
+.btn[disabled]:active {
+  background-color: #ddd;
+  border-color: #ccc;
+  color: #777;
+}
+/*
+.form-control:focus {
+  border-color: #ffbd02;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 190, 0, 0.6);
+}*/
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover,
+a,
+a:hover,
+a:focus,
+a:active,
+.bold-number,
+.bold-number-fa {
+  color: #ffa500;
+}
+
+
+/* Table */
+
+.table--center>tbody>tr>td {
+  text-align: center;
+}
+
+.table--invoice>thead>tr>th {
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 100;
+  border: 0 none;
+}
+
+.table--invoice>tbody>tr>td {
+  border: 0 none;
+  vertical-align: middle;
+  position: relative;
+  /*width: 80%;*/
+}
+
+.table--invoice>tbody>tr>td.is--bordered {
+  border: 1px solid #333;
+  border-width: 1px 0px 1px 0px;
+}
+
+.table--invoice>tbody>tr>td.is--bordered-en {
+  border: 0px solid #333;
+  border-width: 1px 1px 1px 0px;
+}
+.table--invoice>tbody>tr>td.is--bordered-fa {
+  border: 0px solid #333;
+  border-width: 1px 0px 1px 1px;
+}
+
+.table--invoice>thead>tr>td.has-border--bottom,
+.table--invoice>tbody>tr>td.has-border--bottom {
+  border-bottom: 1px solid #333 !important;
+}
+
+.table--invoice .label {
+  color: #333;
+  font-size: 100%;
+  display: block;
+  font-weight: 100;
+  border: 0 none;
+}
+
+.table--invoice .label__text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.table--invoice .label__input {
+  border: 1px solid #333;
+  display: inline-block;
+  padding: 2px;
+  vertical-align: middle;
+  text-align: right;
+  width: 150px;
+  direction: ltr;
+  min-height: 20px;
+}
+
+.pre-Invoice-bottom-notify {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Grid */
+
+.grid {
+  display: inline-block;
+  direction: ltr;
+}
+
+.grid>.cell {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+/*.table:not(.table--invoice)>tbody>tr>td,
+.table:not(.table--invoice)>tbody>tr>th,
+.table:not(.table--invoice)>tfoot>tr>td,
+.table:not(.table--invoice)>tfoot>tr>th,
+.table:not(.table--invoice)>thead>tr>td,
+.table:not(.table--invoice)>thead>tr>th {
+  text-align: center;
+  vertical-align: middle;
+}*/
+
+@media print {
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+
+  html, body {
+    width: 1024px;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+}
